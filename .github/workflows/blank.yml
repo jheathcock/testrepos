@@ -33,7 +33,7 @@ steps:
       - uses: actions/upload-artifact@v4
         with:
         name: hello
-               path: .
+        path: .
       
 
       # Runs a single command using the runners shell
