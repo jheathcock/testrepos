@@ -19,6 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - name: run script
       - run: hello.py
   # This workflow contains a single job called "build"
   build:
